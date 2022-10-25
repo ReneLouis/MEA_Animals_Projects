@@ -1,4 +1,5 @@
 public class Animal {
+    public String environment;
     private String name;
     private int age;
     private int temperature;
@@ -19,5 +20,7 @@ public class Animal {
     public void setName(String name) { this.name = name; }
     public void setAge(int age) { this.age = age; }
     public void setTemperature(int temp){this.temperature = temp;}
+    public String getEnvironment() { return environment; }
 
+    public void setEnvironment(String environment) { this.environment = environment; }
 }
