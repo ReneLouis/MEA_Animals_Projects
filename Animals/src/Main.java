@@ -7,5 +7,11 @@ public class Main {
 
         Fish salmon =  new Fish();
         System.out.println("The salmon lives here: " + salmon.getEnvironment());
+
+        salmon.swimSpeed(30);
+
+        Insect mosquito = new Insect();
+        mosquito.flightSpeed(21);
+
     }
 }
