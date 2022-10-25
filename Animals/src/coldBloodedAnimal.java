@@ -1,4 +1,4 @@
-public class coldBloodedAnimal extends Animal{
+public abstract class coldBloodedAnimal extends Animal{
 
     public coldBloodedAnimal() {}
 
